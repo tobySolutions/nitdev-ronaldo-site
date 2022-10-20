@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+#wrapper {
+    background-color: azure;
+    min-height: 100vh;
+}
+
+header {
+    background-color: blanchedalmond;
+    padding: .1em 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#page_heading {
+    text-align: center;
+    text-decoration:underline;
+    font-size: 3rem;
+    font-weight:bolder;
+}
+
+#header-container, #main-container, #footer-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+#main-container{
+margin-top: 1em;
+}
+
+#footer-container{
+    margin-top: 3em;
+}
+
+
+.ronaldo-desc {
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+
+@media (min-width: 768px) {
+    
+    .ronaldo {
+        border-radius: 50%;
+        object-fit: contain;
+    }
+
+    #main-container {
+        display: flex;
+        gap: 3em;
+        justify-content: space-between;
+    }
+}
